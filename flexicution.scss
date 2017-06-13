@@ -28,7 +28,7 @@ $flex-grid-gutter-width: 30px !default;
   margin-left:  ceil($gutter / -2);
   margin-right: floor($gutter / -2);
 
-  &.-row-reverse { flex-direction: row-reverse; }
+  &.-reverse { flex-direction: row-reverse; }
 }
 
 

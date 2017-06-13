@@ -1,18 +1,16 @@
 {
   "name": "flexicution",
   "version": "0.0.1",
-  "description": "",
+  "description": "This the type of grid they said they really wanted. So I gave them this right here, now go build something.",
   "homepage": "http://keenanpayne.com/flexicution",
   "engines": {
     "node": "<=6.11.0"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.1",
-    "node-sass": "^4.5.3",
-    "postcss-cli": "^4.1.0"
+    "node-sass": "^4.5.3"
   },
   "scripts": {
     "start": "npm run sass",
-    "sass": "node-sass --output-style expanded -w flexicution-classes.scss dist/flexicution.css | postcss --use autoprefixer < dist/flexicution.css -b \"last 2 versions\" | node-sass --output-style compressed -w flexicution-classes.scss dist/flexicution.min.css"
+    "sass": "node-sass --output-style expanded -w flexicution-classes.scss dist/flexicution.css | node-sass --output-style compressed -w flexicution-classes.scss dist/flexicution.min.css"
   }
 }

@@ -14,11 +14,11 @@
 // ---------
 
 // Breakpoints
-$media-xsmall-min:   480px !default;
-$media-small-min:    768px !default;
-$media-medium-min:   960px !default;
-$media-large-min:   1120px !default;
-$media-xlarge-min:  1280px !default;
+$media-xsmall:   480px !default;
+$media-small:    768px !default;
+$media-medium:   960px !default;
+$media-large:   1120px !default;
+$media-xlarge:  1280px !default;
 
 
 //
@@ -43,21 +43,21 @@ $media-xlarge-min:  1280px !default;
 @include make-grid(xsmall);
 
 // Small
-@media (min-width: $media-small-min) {
+@media (min-width: $media-small) {
   @include make-grid(small);
 }
 
 // Medium
-@media (min-width: $media-medium-min) {
+@media (min-width: $media-medium) {
   @include make-grid(medium);
 }
 
 // Large
-@media (min-width: $media-large-min) {
+@media (min-width: $media-large) {
   @include make-grid(large);
 }
 
 // Extra-large
-@media (min-width: $media-xlarge-min) {
+@media (min-width: $media-xlarge) {
   @include make-grid(xlarge);
 }

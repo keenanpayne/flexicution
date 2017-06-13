@@ -1,0 +1,49 @@
+//
+// Flexicution Library with Classes
+// =============================================================================
+
+//
+// Imports
+// -------
+
+@import 'flexicution';
+
+
+//
+// Variables
+// ---------
+
+// Breakpoints
+$media-xsmall-min:   480px !default;
+$media-small-min:    768px !default;
+$media-medium-min:   960px !default;
+$media-large-min:   1120px !default;
+$media-xlarge-min:  1280px !default;
+
+
+//
+// Generate Classes
+// ----------------
+
+// Extra-small
+@include make-grid(xsmall);
+
+// Small
+@media (min-width: $media-small-min) {
+  @include make-grid(small);
+}
+
+// Medium
+@media (min-width: $media-medium-min) {
+  @include make-grid(medium);
+}
+
+// Large
+@media (min-width: $media-large-min) {
+  @include make-grid(large);
+}
+
+// Extra-large
+@media (min-width: $media-xlarge-min) {
+  @include make-grid(xlarge);
+}

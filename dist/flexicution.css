@@ -1,3 +1,17 @@
+.row {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.row.-reverse {
+  flex-direction: row-reverse;
+}
+
 .col-xsmall-1 {
   flex-basis: 8.33333%;
   max-width: 8.33333%;
@@ -108,6 +122,14 @@
 
 .col-xsmall-offset-12 {
   margin-left: 100%;
+}
+
+[class*="col-xsmall"] {
+  box-sizing: border-box;
+  flex: 1 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
 }
 
 .col-xsmall {
@@ -247,6 +269,13 @@
   .col-small-offset-12 {
     margin-left: 100%;
   }
+  [class*="col-small"] {
+    box-sizing: border-box;
+    flex: 1 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
   .col-small {
     flex-basis: 0;
     flex-grow: 1;
@@ -374,6 +403,13 @@
   }
   .col-medium-offset-12 {
     margin-left: 100%;
+  }
+  [class*="col-medium"] {
+    box-sizing: border-box;
+    flex: 1 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
   }
   .col-medium {
     flex-basis: 0;
@@ -503,6 +539,13 @@
   .col-large-offset-12 {
     margin-left: 100%;
   }
+  [class*="col-large"] {
+    box-sizing: border-box;
+    flex: 1 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
   .col-large {
     flex-basis: 0;
     flex-grow: 1;
@@ -630,6 +673,13 @@
   }
   .col-xlarge-offset-12 {
     margin-left: 100%;
+  }
+  [class*="col-xlarge"] {
+    box-sizing: border-box;
+    flex: 1 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
   }
   .col-xlarge {
     flex-basis: 0;

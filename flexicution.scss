@@ -1,8 +1,8 @@
 //
 // Variables
 // =============================================================================
-
 // Grid settings
+
 $flex-grid-columns: 12 !default;
 $flex-grid-gutter-width: 30px !default;
 
@@ -136,6 +136,15 @@ $flex-grid-gutter-width: 30px !default;
 @mixin make-grid($class) {
   @include loop-grid-columns($flex-grid-columns, $class, width);
   @include loop-grid-columns($flex-grid-columns, $class, offset);
+
+  // Default column styling
+  [class*="col-#{$class}"] {
+    box-sizing: border-box;
+    flex: 1 0 auto;
+    padding-left:  ($flex-grid-gutter-width / 2);
+    padding-right: ($flex-grid-gutter-width / 2);
+    position: relative;
+  }
 
   // Adaptive column sizing
   .col-#{$class} {

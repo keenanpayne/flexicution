@@ -25,6 +25,9 @@ $media-xlarge-min:  1280px !default;
 // Generate Classes
 // ----------------
 
+// Rows
+.row { @include make-row(); }
+
 // Extra-small
 @include make-grid(xsmall);
 

@@ -1,6 +1,6 @@
 {
   "name": "flexicution",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "This the type of grid they said they really wanted. So I gave them this right here, now go build something.",
   "ignore": [
     ".gitignore",

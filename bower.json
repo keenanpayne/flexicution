@@ -1,0 +1,27 @@
+{
+  "name": "flexicution",
+  "version": "0.0.1",
+  "description": "This the type of grid they said they really wanted. So I gave them this right here, now go build something.",
+  "ignore": [
+    ".gitignore",
+    ".editorconfig",
+    "README.md",
+    "LICENSE",
+    "node_modules"
+  ],
+  "keywords": [
+    "css",
+    "scss",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "grid",
+    "layout",
+    "web"
+  ],
+  "homepage": "http://keenanpayne.com/flexicution",
+  "main": [
+    "flexicution.scss"
+  ]
+}

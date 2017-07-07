@@ -29,6 +29,11 @@ $flex-grid-gutter-width: 30px !default;
   margin-right: floor($gutter / -2);
 
   &.-reverse { flex-direction: row-reverse; }
+  
+  &.-no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 

@@ -1,5 +1,5 @@
 ---
-layout: flexicution
+layout: default
 meta_title: Flexicution | Another Flexbox Grid System
 ---
 

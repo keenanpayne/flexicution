@@ -3,3 +3,5 @@
 *.log
 node_modules/*
 node_modules
+_docs/node_modules/
+_docs/.sass-cache/

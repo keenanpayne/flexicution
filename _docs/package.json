@@ -1,9 +1,9 @@
 {
-  "name": "keenanpayne",
+  "name": "FlexicutionWebsite",
   "private": true,
-  "version": "2.1.0",
-  "description": "The personal website for Keenan Payne.",
-  "homepage": "http://keenanpayne.com",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://keenanpayne.github.com/flexicution",
   "engines": {
     "node": "<=6.11.0"
   },
@@ -15,17 +15,14 @@
     "concise-cli": "^0.4.1",
     "cssmin": "^0.4.3",
     "flexicution": "0.0.1",
-    "imagemin": "^5.2.2",
-    "imagemin-webp": "^4.0.0",
     "node-sass": "^4.12.0",
     "postcss-cli": "^6.1.2",
-    "prettier": "^1.8.1",
     "watch": "^0.16.0"
   },
   "scripts": {
     "start": "bundle exec jekyll serve",
-    "flex": "watch \"npm run flex:sass && npm run flex:minify\" src",
-    "flex:minify": "cssmin dist/flex.css > dist/flex.min.css",
-    "flex:sass": "concisecss compile src/flex.scss dist/flex.css"
+    "build": "watch \"npm run build:sass && npm run build:minify\" src",
+    "build:minify": "cssmin dist/flex.css > dist/flex.min.css",
+    "build:sass": "concisecss compile src/flex.scss dist/flex.css"
   }
 }

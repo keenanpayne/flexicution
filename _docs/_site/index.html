@@ -7,78 +7,22 @@
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
 	<meta name="author" content="Keenan Payne" />
-  <meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:domain" content="keenanpayne.com">
-
-  
-    <meta name="twitter:description" content="Keenan Payne is a web designer and developer based out of San Francisco, CA.">
-    <meta name="twitter:title" content="Keenan Payne | Front-End Developer">
+	<meta name="description" content="Yet another grid system based on Flexbox. Agnostic, easy-to-use, customizable."/>
 	
+	<title>Flexicution | A Great Flexbox Grid System</title>
 
-  <!-- OpenGraph -->
-	<meta property="og:site_name" content="Keenan Payne">
+  <link rel="canonical" href="http://keenanpayne.com/">
 
+	<link rel="stylesheet" href="/dist/flex.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Overpass:300,600" rel="stylesheet">
 	
-	  <meta property="og:title" content="Keenan Payne | Front-End Developer">
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="Keenan Payne is a web designer and developer based out of San Francisco, CA.">
-	
-
-	
-	  <meta property="og:url" content="http://keenanpayne.com/flexicution/">
-	
-
-	
-
-	
-	  <meta property="og:image" content="https://d3lzmj2d3v8qdh.cloudfront.net/sharing/fb-share.png">
-	
-
-	
-
-	
-		<meta name="description" content="Yet another grid system based on Flexbox. Agnostic, easy-to-use, customizable."/>
-		<title>Flexicution | A Great Flexbox Grid System</title>
-	
-
-  <link rel="canonical" href="http://keenanpayne.com/flexicution/">
-
-	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/favicons/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-	<link rel="manifest" href="/favicons/manifest.json">
-
-	<!-- Flexicution -->
-
-  <link rel="stylesheet" href="/dist/flex.min.css" />
-  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Overpass:300,600" rel="stylesheet">
-
-  <script async src="//cdn.jsdelivr.net/caniuse-embed/1.1.0/caniuse-embed.min.js"></script>
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
-
-<!-- Personal Site -->
-
-
+	<script async src="//cdn.jsdelivr.net/caniuse-embed/1.1.0/caniuse-embed.min.js"></script>
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 <body>
 
 
-  <section class="flexHead">
+<section class="flexHead">
   <h1 class="flexHead-title">Flexicution</h1>
 
   <p class="flexHead-subtitle">
@@ -92,17 +36,19 @@
 </section>
 
 
-  <section class="instructions">
+<section class="instructions">
   <div class="container">
     <h2 class="instructions-header">Installation</h2>
 
     <p>This is the preferred method to install Flexicution. Simply install using NPM or Bower.</p>
+
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># NPM</span>
 npm install flexicution
 
 <span class="c"># Bower</span>
 bower install flexicution</code></pre></figure>
+
 
     <h2>Usage</h2>
 
@@ -115,8 +61,10 @@ bower install flexicution</code></pre></figure>
 
           <p>This includes only the Sass mixins that power Flexicution, with no specific class names.</p>
 
+
 <figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="c1">// Import Flexicution library
 </span><span class="k">@import</span> <span class="s2">"node_modules/flexicution/flexicution"</span><span class="p">;</span></code></pre></figure>
+
         </div>
 
         <div class="col-small-6">
@@ -124,8 +72,10 @@ bower install flexicution</code></pre></figure>
 
           <p>This includes the Sass mixins that power Flexicution, as well as responsive column classes.</p>
 
+
 <figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="c1">// Import Flexicution library
 </span><span class="k">@import</span> <span class="s2">"node_modules/flexicution/flexicution-classes"</span><span class="p">;</span></code></pre></figure>
+
         </div>
       </div>
     </div>
@@ -138,6 +88,7 @@ bower install flexicution</code></pre></figure>
       <div class="row">
         <div class="col-small-6">
           <h4>Semantic Grid Mixin</h4>
+
 
 <figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="c1">//
 // Generate Semantic Rows
@@ -156,10 +107,12 @@ bower install flexicution</code></pre></figure>
 // @param $min-max - Explicitly sets the media query to be `min-width` or `max-width`. Default is `min`
 </span>
 <span class="k">@include</span> <span class="nd">make-column</span><span class="p">();</span></code></pre></figure>
+
         </div>
 
         <div class="col-small-6">
           <h4>Generating Class Names</h4>
+
 
 <figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="c1">//
 // Generate Grid Classes
@@ -173,6 +126,7 @@ bower install flexicution</code></pre></figure>
 </span><span class="k">@media</span> <span class="p">(</span><span class="n">min-width</span><span class="o">:</span> <span class="m">480px</span><span class="p">)</span> <span class="p">{</span>
   <span class="k">@include</span> <span class="nd">make-grid</span><span class="p">(</span><span class="n">small</span><span class="p">);</span>
 <span class="p">}</span></code></pre></figure>
+
         </div>
       </div>
     </div>
@@ -186,15 +140,18 @@ bower install flexicution</code></pre></figure>
         <div class="col-small-6">
           <h4>Base</h4>
 
+
 <figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="c1">// Number of grid columns
 </span><span class="nv">$flex-grid-columns</span><span class="p">:</span> <span class="m">12</span><span class="p">;</span>
 
 <span class="c1">// Amount of gutter width
 </span><span class="nv">$flex-grid-gutter-width</span><span class="p">:</span> <span class="m">30px</span><span class="p">;</span></code></pre></figure>
+
         </div>
 
         <div class="col-small-6">
           <h4>Classes</h4>
+
 
 <figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="c1">// Breakpoints
 </span><span class="nv">$media-xsmall</span><span class="p">:</span>   <span class="m">480px</span><span class="p">;</span>
@@ -202,6 +159,7 @@ bower install flexicution</code></pre></figure>
 <span class="nv">$media-medium</span><span class="p">:</span>   <span class="m">960px</span><span class="p">;</span>
 <span class="nv">$media-large</span><span class="p">:</span>   <span class="m">1120px</span><span class="p">;</span>
 <span class="nv">$media-xlarge</span><span class="p">:</span>  <span class="m">1280px</span><span class="p">;</span></code></pre></figure>
+
         </div>
       </div>
     </div>
@@ -215,7 +173,7 @@ bower install flexicution</code></pre></figure>
 </section>
 
 
-  <section class="container">
+<section class="container">
   <h2>Basic Grids</h2>
 
   <p>Class names can be used to build layouts based on viewport width.</p>
@@ -348,10 +306,12 @@ bower install flexicution</code></pre></figure>
     </div>
   </div>
 
+
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-small-6"</span><span class="nt">&gt;&lt;/div&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-small-6"</span><span class="nt">&gt;&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
 </section>
 
 <section class="container">
@@ -385,6 +345,7 @@ bower install flexicution</code></pre></figure>
     </div>
   </div>
 
+
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-xsmall"</span><span class="nt">&gt;&lt;/div&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-xsmall"</span><span class="nt">&gt;&lt;/div&gt;</span>
@@ -392,6 +353,7 @@ bower install flexicution</code></pre></figure>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-small"</span><span class="nt">&gt;&lt;/div&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-medium"</span><span class="nt">&gt;&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
 </section>
 
 <section class="container">
@@ -419,6 +381,7 @@ bower install flexicution</code></pre></figure>
     </div>
   </div>
 
+
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-xsmall-12
                 col-small-8
@@ -427,6 +390,7 @@ bower install flexicution</code></pre></figure>
                 col-xlarge-3"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
 </section>
 
 <section class="container">
@@ -484,9 +448,11 @@ bower install flexicution</code></pre></figure>
     </div>
   </div>
 
+
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-small-6 col-small-offset-2"</span><span class="nt">&gt;&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
 </section>
 
 <section class="container">
@@ -530,6 +496,7 @@ bower install flexicution</code></pre></figure>
     </div>
   </div>
 
+
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-small-6"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
@@ -538,6 +505,7 @@ bower install flexicution</code></pre></figure>
         <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
 </section>
 
 <section class="container">
@@ -581,6 +549,7 @@ bower install flexicution</code></pre></figure>
     </div>
   </div>
 
+
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row -xsmall-start"</span><span class="nt">&gt;&lt;/div&gt;</span>
 
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row -xsmall-center"</span><span class="nt">&gt;&lt;/div&gt;</span>
@@ -588,6 +557,7 @@ bower install flexicution</code></pre></figure>
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row -xsmall-end"</span><span class="nt">&gt;&lt;/div&gt;</span>
 
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row -xsmall-center -medium-end -xlarge-start"</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></figure>
+
 
   <p class="demo-format"><code>-[size]-top</code></p>
 
@@ -645,6 +615,7 @@ bower install flexicution</code></pre></figure>
     </div>
   </div>
 
+
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row -xsmall-top"</span><span class="nt">&gt;&lt;/div&gt;</span>
 
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row -xsmall-middle"</span><span class="nt">&gt;&lt;/div&gt;</span>
@@ -652,6 +623,7 @@ bower install flexicution</code></pre></figure>
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row -xsmall-bottom"</span><span class="nt">&gt;&lt;/div&gt;</span>
 
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row -xsmall-bottom -medium-middle -xlarge-top"</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></figure>
+
 </section>
 
 <section class="container">
@@ -713,11 +685,13 @@ bower install flexicution</code></pre></figure>
     </div>
   </div>
 
+
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row -xsmall-space-around"</span><span class="nt">&gt;&lt;/div&gt;</span>
 
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row -xsmall-space-between"</span><span class="nt">&gt;&lt;/div&gt;</span>
 
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row -xsmall-space-between -medium-space-around"</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></figure>
+
 </section>
 
 <section class="container">
@@ -803,6 +777,7 @@ bower install flexicution</code></pre></figure>
     </div>
   </div>
 
+
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-small-4"</span><span class="nt">&gt;&lt;/div&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-small-4"</span><span class="nt">&gt;&lt;/div&gt;</span>
@@ -816,6 +791,7 @@ bower install flexicution</code></pre></figure>
 <span class="nt">&lt;/div&gt;</span>
 
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row -row-reverse"</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></figure>
+
 </section>
 
 
@@ -828,4 +804,3 @@ bower install flexicution</code></pre></figure>
 
   <p>Built with love by <a href="http://keenanpayne.com">Keenan Payne</a></p>
 </footer>
-

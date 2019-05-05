@@ -1,0 +1,13 @@
+//
+// Reading Time
+// ==================================================
+
+.readingTime {
+  margin-left: $spacing-xxs;
+
+  &:before {
+    content: "·";
+    padding-right: $spacing-xxs;
+    vertical-align: middle;
+  }
+}

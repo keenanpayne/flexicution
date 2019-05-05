@@ -2,3 +2,4 @@
 *.css.map
 *.log
 node_modules/*
+node_modules

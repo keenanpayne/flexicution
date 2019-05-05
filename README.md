@@ -4,7 +4,7 @@
 
 Flexicution is a flexbox grid system that's agnostic in regards to your layout and breakpoints. You can use the semantic grid mixin to generate rows and columns for your layout and components, or you can generate responsive class names based on the breakpoints used in your project.
 
-**Documentation:** [keenanpayne.com/flexicution](http://keenanpayne.com/flexicution)
+**Documentation:** [https://keenanpayne.github.io/flexicution/](https://keenanpayne.github.io/flexicution/)
 
 ## Usage
 

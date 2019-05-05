@@ -18,28 +18,8 @@
 ## You can create any custom variable you would like, and they will be accessible
 ## in the templates via {{ site.myvariable }}.
 
-meta_title: Keenan Payne
-meta_tagline: Front-End Developer
-meta_description: Keenan Payne is a web designer and developer based out of San Francisco, CA.
-name: Keenan Payne
-link: "http://keenanpayne.com"
-
-
-##
-## Social Networks
-## ---------------
-
-social:
-  - name: "Dribbble"
-    url: "https://dribbble.com/keenanpayne"
-  - name: "GitHub"
-    url: "https://github.com/keenanpayne"
-  - name: "Behance"
-    url: "https://www.behance.net/keenanpayne"
-  - name: "LinkedIn"
-    url: "https://www.linkedin.com/in/keenanpayne"
-  - name: "CodePen"
-    url: "https://codepen.io/keenanpayne/"
+flex_meta_title: Flexicution | A Great Flexbox Grid System
+flex_meta_description: Yet another grid system based on Flexbox. Agnostic, easy-to-use, customizable.
 
 
 ##
@@ -87,11 +67,3 @@ defaults:
     values:
       layout: "post"
       permalink: "/blog/:title.html"
-
-
-##
-## Flexicution Site Settings
-## -------------------------
-
-flex_meta_title: Flexicution | A Great Flexbox Grid System
-flex_meta_description: Yet another grid system based on Flexbox. Agnostic, easy-to-use, customizable.

@@ -21,8 +21,9 @@
   },
   "scripts": {
     "start": "bundle exec jekyll serve",
+    "deploy": "bundle exec jekyll build -b ../docs",
     "build": "watch \"npm run build:sass && npm run build:minify\" src",
-    "build:minify": "cssmin dist/flex.css > dist/flex.min.css",
-    "build:sass": "concisecss compile src/flex.scss dist/flex.css"
+    "build:minify": "cssmin flex.css > flex.min.css",
+    "build:sass": "concisecss compile src/flex.scss flex.css"
   }
 }
